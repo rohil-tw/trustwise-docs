@@ -5,11 +5,12 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+import sphinx_rtd_theme
 
-project = 'Trustwise Hallucination Plugin'
-copyright = '2023, Rohil Pal, Nihal Bhatnagar, Avi Saxena'
-author = 'Rohil Pal, Nihal Bhatnagar, Avi Saxena'
-release = '1'
+
+project = 'Trustwise Hallucination Observability Plugin'
+copyright = '2023, Trustwise'
+author = 'Trustwise'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -24,5 +25,5 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'furo'
 html_static_path = ['_static']
